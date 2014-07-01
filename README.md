@@ -20,3 +20,9 @@ $ ./bin/builoud
 ...get some coffee
 
 $ ./bin/instance fg
+
+In a browser go to http://localhost:8080
+
+It will ask you to create a Plone site.  
+
+Have fun!
