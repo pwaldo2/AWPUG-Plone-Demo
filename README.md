@@ -8,13 +8,9 @@ To get started, it is a good idea to make your virtual environment first rather 
 Example with virtualenvwrapper on Mac OS X
 
 $ mkvirtualenv awpugpy
-
 $ workon awpugpy
-
 $ cd AWPUG-Plone-Demo
-
 $ python bootstrap.py
-
 $ ./bin/builoud
 
 ...get some coffee
