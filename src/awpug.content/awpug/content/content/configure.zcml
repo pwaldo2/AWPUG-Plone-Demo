@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    i18n_domain="awpug.content">
+
+  <!-- configure your content components here -->
+  
+  <!-- -*- extra stuff goes here -*- -->
+  <class class=".beer.Beer">
+    <require
+        permission="zope2.View"
+        interface="..interfaces.IBeer"
+        />
+  </class>
+  <class class=".beerfolder.BeerFolder">
+    <require
+        permission="zope2.View"
+        interface="..interfaces.IBeerFolder"
+        />
+  </class>
+
+</configure>
